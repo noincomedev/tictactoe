@@ -1,5 +1,4 @@
-require "./lib/game.rb"
+require './lib/game.rb'
 
 game = Game.new
-
 game.start
