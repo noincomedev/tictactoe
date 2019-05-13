@@ -33,7 +33,7 @@ class Board
     show_board
     puts "====================="
     puts "Choose a empty square"
-    #show_player
+    show_player
     puts ""
     option = gets.chomp.to_i
     if @plays[option] == nil
